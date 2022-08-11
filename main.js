@@ -12,7 +12,7 @@ function draw() {
     check_sketch();
     if(drawn_sketch == sketch) {
         answer_holder = "set";
-        Score = Score;
+        Score = Score + 1;
         document.getElementById("Score").innerHTML = "Score: " + Score;
         Score.hide();
     }
